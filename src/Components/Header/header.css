@@ -1,0 +1,40 @@
+@media screen and (max-width: 844px) and (min-width: 390px) {
+    .header{
+        width: 460px;
+        padding: 10px 10px;
+        height: 150px;
+        margin: 0%;
+        position: sticky;
+        top: 0;
+        
+    }
+
+    .header ul{
+        padding-left: 45%;
+    }
+    
+    .header ul li{
+        font-size: 14px;
+    }
+
+    .header .stories img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .header h4{
+        font-size: 23px;
+    }
+
+    .header #navbar{
+        width: 400px;
+        margin: auto;
+    }
+
+    .header .stories p{
+        font-size: 10px;
+    }
+}
+
+
+

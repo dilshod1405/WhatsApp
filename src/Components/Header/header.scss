@@ -1,0 +1,56 @@
+.header{
+    width: 460px;
+    position: sticky;
+    top: 0;
+    height: 170px;
+    background-color: #1F8A70;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+    #navbar{
+        display: flex;
+        width: 420px;
+        margin: auto;
+        padding-top: 3%;
+    }
+
+    h4{
+        color: white;
+    }
+
+    ul{
+        padding-left: 50%;
+        display: flex;
+
+        li{
+            display: block;
+
+            .btn{
+                color: white;
+                padding: 5px 20px;
+            }
+        }
+    }
+    .col{
+
+        img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            
+        }
+    
+        p{
+            color: white;
+            font-size: 12px;
+            padding: 5px;
+        }
+    }
+}
+
+.dark{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    transition: 0.5s ease;
+}
